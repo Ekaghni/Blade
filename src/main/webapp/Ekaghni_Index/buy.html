@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiperjs cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/inputfield.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/buy_sell.css">
+    <title>Buy</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header bg-white10">
+        <div class="container">
+            <a href="#" class="logo bold white">Psycho<span class="lightpurple">Art</span></a>
+
+            <div class="menu">
+                <form action="buy" class="search-form" method="post">
+                    <label for="search-box" class="fas fa-search"></label>
+                    <input type="search" id="search-box" placeholder="Search items and collections">
+                </form>
+                <a href="#collections">Collections</a>
+                <a href="#featured">Featured</a>
+                <a href="#faq">FAQ</a>
+                <div class="btn bg-purple wallet">Sellect Wallet</div>
+            </div>
+
+            <div class="fas fa-wallet" id="wallet"></div>
+            <div class="fas fa-bars" id="bar"></div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <section id="buy_form" class="spacetop15 spacebottom10">
+        <form method="post" action="buy" class="buy_form">
+
+            <div class="TextInputEditLayout">
+                <input type="text" name="buy_enter_user_id" required  /><span class="highlight"></span><span class="bar"></span>
+                <label class="lightpurple">Gmail</label>
+            </div>
+
+            <div class="TextInputEditLayout">
+                <input type="text" name="buy_enter_user_password" required /><span class="highlight"></span><span class="bar"></span>
+                <label class="lightpurple">Password</label>
+            </div>
+
+            <div class="TextInputEditLayout">
+                <input type="text"   name="buy_enter_amount_of_tokens" required /><span class="highlight"></span><span class="bar"></span>
+                <label class="lightpurple">Number of tokens</label>
+            </div>
+
+            <div class="TextInputEditLayout">
+                <input type="text" /><span class="highlight"></span><span class="bar"></span>
+                <label class="lightpurple">Hashkey</label>
+            </div>
+            <input type="submit">
+
+            <button class="btn bg-purple">Buy</button>
+        </form>
+    </section>
+
+    <!-- footer section starts -->
+    <footer class="spacer10">
+        <div class="container row jc-between flexcol-s ta-center-s">
+            <div class="row flexcol spacebottom3-s">
+                <a href="#home" class="size2 bold white">Psycho<span class="lightpurple">Art</span></a>
+                <p class="size2 halfwhite spacetop2">The best NFT marketplace website in<br>the world and feel your
+                    experience
+                    in<br>selling or buy our work</p>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#about" class="bold size2 white">About</a>
+                <a href="#" class="size2 halfwhite spacetop2">Product</a>
+                <a href="#" class="size2 halfwhite spacetop2">Resource</a>
+                <a href="#" class="size2 halfwhite spacetop2">Term & Condition</a>
+                <a href="#" class="size2 halfwhite spacetop2">FAQ</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <a href="#" class="bold size2 white">Company</a>
+                <a href="#" class="size2 halfwhite spacetop2">Our Team</a>
+                <a href="#" class="size2 halfwhite spacetop2">Partner With Us</a>
+                <a href="#" class="size2 halfwhite spacetop2">Privacy & Policy</a>
+                <a href="#" class="size2 halfwhite spacetop2">Features</a>
+            </div>
+            <div class="row flexcol spacebottom3-s">
+                <h5 class="bold size2">Contact</h5>
+                <a href="#" class="size2 halfwhite spacetop2">+012 3456789</a>
+                <a href="#" class="size2 halfwhite spacetop2">xyz@gmail.com</a>
+                <div class="row jc-between spacetop2 jc-evenly-s">
+                    <a href="#" class="fab fa-youtube size2 halfwhite spacetop2"></a>
+                    <a href="#" class="fab fa-discord size2 halfwhite spacetop2"></a>
+                    <a href="#" class="fab fa-instagram size2 halfwhite spacetop2"></a>
+                </div>
+            </div>
+        </div>
+        <p class="size2 halfwhite spacetop5 ta-center">Created by <span class="white bold">Zarror</span> | All Right
+            Reserved!</p>
+    </footer>
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    <script src="js/button.js"></script>
+</body>
+
+</html>

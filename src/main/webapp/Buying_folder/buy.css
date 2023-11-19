@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+.buy_form{
+	font-family: 'Roboto', sans-serif;
+	padding: 1rem;
+	
+	color: black;
+	width: 100%;
+}
